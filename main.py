@@ -3,7 +3,8 @@
 import pygame
 import sys
 import config # Import the config module
-
+import random
+import shapes # import the shapes module
 def init_game():
     pygame.init()
     screen = pygame.display.set_mode((config.WINDOW_WIDTH, config.WINDOW_HEIGHT)) # Use constants from config
