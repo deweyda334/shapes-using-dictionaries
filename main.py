@@ -27,6 +27,7 @@ def main():
     while running:
         running = handle_events()
         screen.fill(config.WHITE) # Use color from config
+        # Add some more code beneath this comment but BEFORE the line that reads pygame.display.flip( )
         
         
         
